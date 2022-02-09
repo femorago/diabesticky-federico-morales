@@ -121,7 +121,18 @@ background-color: rgb(211, 206, 206);
     text-decoration: none;
     font-size: 20px;
     margin: 0 30px;
+}
 
+.nav-menu li a:hover {
+    color: tomato;
+}
+
+/*Se que dijeron que son numeros enteros para scale, pero no podia escalar
+el menu a 2 porque queda muy grande*/
+
+.nav-menu li:hover {
+    transform: scale(1.2);
+    transition: all 1s;
 }
 
 /* Carrousel */
@@ -183,6 +194,11 @@ background-color: rgb(211, 206, 206);
     text-align: center;
     background-color: rgb(204, 5, 5);
     border-radius: 5px;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+    transition: all 2s;
 }
 
 /* Fin Contenedor1 */
