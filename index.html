@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Diabesticky</title>
 </head>
 <body>
@@ -17,7 +19,7 @@
                 <img src="img/menu-h.png" alt="menu-hamburguesa">
             </div>
 
-            <div class="logo">
+            <div class="logo animacion">
                 <a href="index.html">
                     <img src="img/logo-Diabesticky.png" alt="Logo Diabesticky" class="logo-size">
                 </a>
@@ -137,7 +139,8 @@
     <!-- Fin Seccion Productos -->
 
     <!-- Seccion Envios -->
-    <section class="contenedor-envios">
+    <section class="contenedor-envios"
+    data-aos="flip-right">
         <div class="envios">
             <img src="/img/entrega.png" alt="Envios">
             <h1>
@@ -242,6 +245,12 @@
 
     </footer>
     <!-- Fin del Footer -->
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>

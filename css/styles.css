@@ -96,8 +96,9 @@ background-color: rgb(211, 206, 206);
     box-shadow: 0 1px 4px grey;
     position: sticky;
     top: 0;
-
+    z-index: 1;
 }
+
 
 .nav-menu {
     width: 90%;
@@ -214,7 +215,7 @@ el menu a 2 porque queda muy grande*/
 }
 
 .envios {
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,6 +238,7 @@ el menu a 2 porque queda muy grande*/
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 
 /* Fin Seccion Envios */
 
