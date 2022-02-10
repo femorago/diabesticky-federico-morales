@@ -544,8 +544,9 @@ h1 {
 }
 
 .modelo img:hover {
-    transform: scale(1.1);
-    transition: all 2s;
+    transform: rotate(360deg);
+    transition: all 0.5s;
+    border-radius: 200px;
 }
 
 .modelo h3 {
