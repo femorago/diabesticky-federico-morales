@@ -471,7 +471,7 @@ h1 {
 }
 
 .producto img:hover {
-    transform: scale(1.1);
+    transform: rotateY(360deg);
     transition: all 2s;
 }
 
