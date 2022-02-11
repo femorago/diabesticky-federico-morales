@@ -411,6 +411,11 @@ h1 {
     border-radius: 5px;
 }
 
+.foto:hover {
+    transform: rotate(2deg);
+    transition: all 0.5s;
+}
+
 .texto-nosotros {
     padding: 0 25px;
     text-align: justify;
