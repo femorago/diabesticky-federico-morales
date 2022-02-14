@@ -118,57 +118,6 @@ background-color: rgb(211, 206, 206);
 .logo-menu {
     display: none;
 }
-
-
-/* .menu-header {
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    background-color: rgb(211, 206, 206);
-    box-shadow: 0 1px 4px grey;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-
-.nav-menu {
-    width: 90%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-menu ul {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-
-.nav-menu li {
-    list-style-type: none;
-
-}
-
-.nav-menu li a {
-    text-decoration: none;
-    font-size: 20px;
-    margin: 0 30px;
-}
-
-.nav-menu li a:hover {
-    color: tomato;
-} */
-
-/*Se que dijeron que son numeros enteros para scale, pero no podia escalar
-el menu a 2 porque queda muy grande*/
-
-/* .nav-menu li:hover {
-    transform: scale(1.2);
-    transition: all 1s;
-} */
-
 /* Carrousel */
 
 .carrousel {
@@ -177,7 +126,7 @@ el menu a 2 porque queda muy grande*/
     flex-wrap: wrap;
 }
 
-.carrousel img {
+.carousel-item img {
     height: 100%;
 
 }
