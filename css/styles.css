@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 /*Tipografia*/
@@ -341,49 +340,42 @@ display: none;
 
 /* Comienzo pagina Nosotros*/
 
-h1 {
-    display: block;
-    color: red;
+.titulo-nosotros {
     text-align: center;
-    margin: 30px;
-    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    color: red;
+}
+
+.contenedor-nosotros {
     
+    margin: 80px auto;
+    padding-bottom: 50px;
 }
 
-.section-nosotros {
+.marco-nosotros {
+    width: 90%;
+    background-color: rgba(181, 247, 236, 0.5);
+    padding: 20px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.imagen {
     width: 100%;
-
-    display: flex;
-    justify-content: center;
+    padding: 20px;
 }
 
-.nosotros {
-    background-color: rgba(181, 247, 236, 0.384);
-    width: 80%;
-    border-radius: 5px;
-    margin-bottom: 80px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 1px 1px 2px grey;
-
-}
-
-.foto {
-    width: 400px;
-    border-radius: 5px;
-}
-
-.foto:hover {
+.imagen:hover {
     transform: rotate(2deg);
     transition: all 0.5s;
 }
 
 .texto-nosotros {
-    padding: 0 25px;
+    padding: 20px;
     text-align: justify;
-    margin-left: 10px;
 }
+
 /* Fin pagina Nosotros */
 
 
@@ -953,43 +945,7 @@ h1 {
 }
 /* Fin seccion desarrollo */
 
-/* Comienzo pagina Nosotros*/
 
-h1 {
-    display: block;
-    color: red;
-    text-align: center;
-    margin: 30px;
-    font-family: 'Poppins', sans-serif;
-    
-}
-
-.section-nosotros {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.nosotros {
-    background-color: rgba(181, 247, 236, 0.384);
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.foto {
-    width: 100%;
-}
-
-.texto-nosotros {
-    font-size: 16px;
-    padding: 0;
-    text-align: justify;
-    margin: 30px 0 0 0;
-}
-/* Fin pagina Nosotros */
 
 
 /*Comienzo pagina Stickers*/
