@@ -139,13 +139,15 @@ background-color: rgb(211, 206, 206);
     width: 80%;
     border-radius: 5px;
     margin: auto;
+    padding: 15px;
     box-shadow: 1px 2px 2px grey;
-    padding-bottom: 10px;
+
 }
 
 .marco img {
     width: 100%;
-    padding: 15px;
+    border-radius: 5px;
+
 }
 
 .marco img:hover {
@@ -163,7 +165,7 @@ background-color: rgb(211, 206, 206);
     margin: 0 auto;
     width: 30%;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 /*Fin Container - Productos*/
@@ -363,7 +365,7 @@ display: none;
 
 .imagen {
     width: 100%;
-    padding: 20px;
+    border-radius: 5px;
 }
 
 .imagen:hover {
@@ -381,7 +383,59 @@ display: none;
 
 /*Comienzo pagina Stickers*/
 
-.section-encabezado {
+.encabezado h1 {
+    text-align: center;
+    color: red;
+    margin: 20px;
+}
+
+.contenedor-texto {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgba(181, 247, 236, 0.5);
+    box-shadow: 1px 2px 2px grey;
+}
+.texto-stickers {
+    text-align: justify;
+}
+
+.container-row {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.producto {
+    background-color: rgba(181, 247, 236, 0.5);
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.producto p {
+    background-color: red;
+    color: #FFF;
+    margin: 0 auto;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.producto img:hover {
+    transform: rotateY(360deg);
+    transition: all 2s;
+}
+
+
+/* .section-encabezado {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -449,7 +503,7 @@ display: none;
     margin: 10px auto;
     padding: 5px 0;
     border-radius: 5px;  
-}
+} */
 /* Fin Stickers */
 
 
