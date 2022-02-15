@@ -132,59 +132,42 @@ background-color: rgb(211, 206, 206);
 }
 
 /*Productos*/
-/*Comienzo Contenedor1*/
 
-.contenedor1 {
-    width: 100%;
-    background-color: rgb(211, 206, 206);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
-}
+/*Comienzo Container - Productos*/
 
-.contenedor1 div {
+.marco {
     background-color: rgba(181, 247, 236, 0.5);
-    margin: 25px 20px 20px 20px;
-    height: 350px;
-    text-align: center;
-    box-shadow: 1px 1px 2px grey;
+    width: 80%;
     border-radius: 5px;
-    
-}
-
-.contenedor1 img {
-    margin: 20px;
-    border-radius: 5px;
-}
-
-
-.contenedor1 div h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-
-} 
-
-.contenedor1 div p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    color: white;
     margin: auto;
-    width: 40%;
-    text-align: center;
-    background-color: rgb(204, 5, 5);
-    border-radius: 5px;
+    box-shadow: 1px 2px 2px grey;
+    padding-bottom: 10px;
 }
 
-.grid-item img:hover {
+.marco img {
+    width: 100%;
+    padding: 15px;
+}
+
+.marco img:hover {
     transform: scale(1.1);
-    transition: all 2s;
+    transition: all 1s;
 }
 
-/* Fin Contenedor1 */
+.marco, h4, p {
+    text-align: center;
+}
+
+.marco p {
+    background-color: red;
+    color: #FFF;
+    margin: 0 auto;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/*Fin Container - Productos*/
 
 
 /* Comienzo Seccion Envios */
@@ -824,54 +807,16 @@ h1 {
     /*FIN CARROUSEL*/
 
 
-    .grid-contenedor {
-        display: grid;
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-    
-    }
+/* Comienzo Container - Productos*/
 
-    /*Comienzo Contenedor1*/
 
-    .contenedor1 {
-        padding: 0%;
-    }
 
-.contenedor1 div {
-    padding: 0 15px;
-    height: 250px;
    
-}
-
-.contenedor1 img {
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 15px;
-}
+/* Fin Container - Productos */
 
 
-.contenedor1 div h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 5px;
 
-} 
 
-.contenedor1 div p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    color: white;
-    padding: 5px 0;
-    margin: 10px auto;
-    width: 40%;
-    text-align: center;
-    background-color: rgb(204, 5, 5);
-    border-radius: 4px;
-}
-
-/* Fin Contenedor1 */
-    
 /* Comienzo Seccion Envios */
 
 .contenedor-envios {
