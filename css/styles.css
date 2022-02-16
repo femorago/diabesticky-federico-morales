@@ -160,12 +160,27 @@ background-color: rgb(211, 206, 206);
 }
 
 .marco p {
-    background-color: red;
-    color: #FFF;
-    margin: 0 auto;
+    color: black;
+    margin: 10px auto;
     width: 30%;
-    font-size: 20px;
-    border-radius: 6px;
+    font-size: 25px;
+}
+
+.marco a {
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 2px 12px;
+}
+    
+.marco a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 2px 12px;
 }
 
 /*Fin Container - Productos*/
@@ -390,9 +405,7 @@ display: none;
 }
 
 .contenedor-texto {
-    height: 100px;
-    display: flex;
-    align-items: center;
+    height: auto;
     padding: 15px;
     border-radius: 6px;
     background-color: rgba(181, 247, 236, 0.5);
@@ -413,6 +426,18 @@ display: none;
     margin-bottom: 30px;
     border-radius: 4px;
     box-shadow: 1px 1px 2px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.producto h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
 }
 
 .producto img {
@@ -421,12 +446,28 @@ display: none;
 }
 
 .producto p {
-    background-color: red;
-    color: #FFF;
     margin: 0 auto;
     width: 30%;
-    font-size: 20px;
-    border-radius: 6px;
+    font-size: 30px;
+    
+}
+
+.producto a {
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 2px 12px;
+}
+
+.producto a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 2px 12px;
+
 }
 
 .producto img:hover {
@@ -434,7 +475,11 @@ display: none;
     transition: all 2s;
 }
 
-
+.section-encabezado h1 {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
 /* .section-encabezado {
     width: 100%;
     display: flex;
@@ -512,22 +557,19 @@ display: none;
 
 /* Comienzo Seccion Protectores */
 
-.contenedor-descripcion {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-
-}
-
 .descripcion {
     background-color: rgba(181, 247, 236, 0.384);
-    width: 50%;
+    width: 100%;
     height: auto;
-    text-align: justify;
     padding: 20px 50px 50px;
     border-radius: 10px;
     box-shadow: 1px 1px 2px darkgray;
+    margin-bottom: 150px;
+}
+
+.descripcion p {
+    text-align: justify;
+    margin: 10px 0;
 }
 
 .descripcion h4 {
@@ -543,6 +585,12 @@ display: none;
     background-color: rgb(211, 206, 206);
     padding: 60px 0;
     margin-top: 80px;
+}
+
+.img-protector img:hover {
+    transform: rotateZ(360deg);
+    transition: all 0.4s;
+    border-radius: 200px;
 }
 
 .modelo {
@@ -852,16 +900,16 @@ display: none;
     
     /*FIN CARROUSEL*/
 
+    /* Productos */
+    .marco a {
+        text-decoration: none;
+        color: #FFF;
+        background-color: red;
+        border-radius: 20px;
+        padding: 2px 12px;
+    }
 
-/* Comienzo Container - Productos*/
-
-
-
-   
-/* Fin Container - Productos */
-
-
-
+    /* Fin Productos */
 
 /* Comienzo Seccion Envios */
 
@@ -1004,51 +1052,17 @@ display: none;
 
 /*Comienzo pagina Stickers*/
 
-.grid-contenedor-stickers {
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 25px;
-    width: 80%;
-    margin: 0 20px;
-
-}
-
-.section-stickers {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 .texto-stickers {
     width: 80%;
     margin-top: 60px;
 }
 
-.producto {
-    width: none;
-}
-
-.producto img {
-    width: 100%;
-}
-
-.producto h4 {
-    text-align: center;
-    margin: 10px 0;
-}
-
-.producto p {
-    text-align: center;
-    margin: 0;
-    background-color: rgb(204, 5, 5);
-    color: white;
-    width: 60%;
-    margin: 0 auto;
-    padding: 4px 0;
-
+.producto a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: red;
+    border-radius: 20px;
+    padding: 2px 12px;
 }
 
 /* Protectores */
@@ -1099,7 +1113,7 @@ display: none;
 
 .descripcion {
     padding: 0 15px;
-    width: 80%;
+    width: 100%;
 }
 
 .descripcion p {
